@@ -16,3 +16,6 @@ A simple application to track grocery expenses.
 
 ## Usage
 Add grocery items with their categories, quantities, and prices to track your grocery spending.
+
+## Screenshot
+![image](https://github.com/user-attachments/assets/19ec61c2-23d5-4ddb-96b2-71a66f6f0bfa)
