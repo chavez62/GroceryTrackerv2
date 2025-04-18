@@ -1,0 +1,96 @@
+:root {
+  /* Main UI Colors */
+  --color-green: #28a745;
+  --color-red: #dc3545;
+  --color-yellow: #ffc107;
+  --color-blue: #0d6efd;
+  --color-orange: #fd7e14;
+  --color-purple: #6f42c1;
+  --color-teal: #20c997;
+  --color-pink: #e83e8c;
+  --color-indigo: #6610f2;
+
+  /* Category Colors */
+  --category-produce: var(--color-green);
+  --category-dairy: var(--color-blue);
+  --category-meat: var(--color-red);
+  --category-bakery: var(--color-yellow);
+  --category-frozen-foods: var(--color-teal);
+  --category-canned-goods: var(--color-orange);
+  --category-dry-goods: var(--color-indigo);
+  --category-beverages: var(--color-blue);
+  --category-snacks: var(--color-yellow);
+  --category-household: var(--color-purple);
+  --category-personal-care: var(--color-pink);
+  --category-other: #6c757d;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Custom button styles */
+.btn-success {
+  background-color: var(--color-green);
+}
+
+.btn-danger {
+  background-color: var(--color-red);
+}
+
+.btn-warning {
+  background-color: var(--color-yellow);
+}
+
+.btn-primary {
+  background-color: var(--color-blue);
+}
+
+/* Badge colors */
+.badge-produce {
+  background-color: var(--category-produce) !important;
+}
+
+.badge-dairy {
+  background-color: var(--category-dairy) !important;
+}
+
+.badge-meat {
+  background-color: var(--category-meat) !important;
+}
+
+.badge-bakery {
+  background-color: var(--category-bakery) !important;
+}
+
+.badge-frozen-foods {
+  background-color: var(--category-frozen-foods) !important;
+}
+
+.badge-canned-goods {
+  background-color: var(--category-canned-goods) !important;
+}
+
+.badge-dry-goods {
+  background-color: var(--category-dry-goods) !important;
+}
+
+.badge-beverages {
+  background-color: var(--category-beverages) !important;
+}
+
+.badge-snacks {
+  background-color: var(--category-snacks) !important;
+}
+
+.badge-household {
+  background-color: var(--category-household) !important;
+}
+
+.badge-personal-care {
+  background-color: var(--category-personal-care) !important;
+}
+
+.badge-other {
+  background-color: var(--category-other) !important;
+}
